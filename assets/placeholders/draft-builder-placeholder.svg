@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#12313A"/>
+  <rect x="22" y="22" width="1156" height="716" rx="24" fill="#F7FBFB" stroke="#83C1C6" stroke-width="2"/>
+  <text x="74" y="90" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Replace with a Draft Builder screenshot</text>
+  <text x="74" y="132" fill="#4A6971" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22">Show grouped item photos, sidebar navigation, and run controls.</text>
+
+  <rect x="74" y="184" width="236" height="486" rx="22" fill="#123846"/>
+  <rect x="338" y="184" width="788" height="96" rx="22" fill="#FFFFFF"/>
+  <rect x="338" y="306" width="788" height="364" rx="22" fill="#EDF6F7"/>
+  <rect x="376" y="344" width="160" height="148" rx="18" fill="#DCEBED"/>
+  <rect x="556" y="344" width="160" height="148" rx="18" fill="#DCEBED"/>
+  <rect x="736" y="344" width="160" height="148" rx="18" fill="#DCEBED"/>
+  <rect x="916" y="344" width="160" height="148" rx="18" fill="#DCEBED"/>
+  <rect x="376" y="524" width="520" height="26" rx="13" fill="#DCEBED"/>
+  <rect x="376" y="568" width="440" height="18" rx="9" fill="#E6F2F3"/>
+  <rect x="376" y="602" width="486" height="18" rx="9" fill="#E6F2F3"/>
+
+  <text x="366" y="244" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Keep one open group visible</text>
+  <text x="366" y="272" fill="#4A6971" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">A good hero capture should feel active, not empty.</text>
+</svg>

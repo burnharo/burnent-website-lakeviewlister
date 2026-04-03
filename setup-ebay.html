@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Set up eBay developer credentials, create the correct RuName, and complete eBay OAuth for Lakeview Lister.">
+  <meta name="theme-color" content="#17313b">
+  <title>eBay Developer Setup | Lakeview Lister</title>
+  <link rel="icon" href="assets/images/lakeview-lister-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Lakeview Lister home">
+        <img src="assets/images/lakeview-lister-icon.png" alt="Lakeview Lister app icon" class="brand-mark">
+        <span class="brand-copy">
+          <strong>Lakeview Lister</strong>
+          <span>AI-assisted eBay listing workflow for macOS</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a class="is-current" href="setup.html">Setup</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="page-stack">
+      <div class="breadcrumb reveal">
+        <a href="setup.html">Setup</a>
+        <span>/</span>
+        <span>eBay Developer Setup</span>
+      </div>
+
+      <section class="doc-hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Setup guide</p>
+          <h1>Connect your eBay developer credentials.</h1>
+          <p class="lede">
+            Lakeview Lister expects three main values for eBay OAuth in the app: <strong>Client ID</strong>,
+            <strong>Client Secret</strong>, and an environment-specific <strong>RuName</strong>. After those are saved,
+            the app opens the eBay consent flow for the seller account you want to manage.
+          </p>
+        </div>
+
+        <figure class="figure-card figure-tight">
+          <img src="assets/placeholders/ebay-keyset-placeholder.svg" alt="eBay developer keyset illustration" class="feature-image">
+          <figcaption>
+            <strong>eBay Application Keys</strong>
+            Your keyset, secret, and RuName are the pieces that unlock listing and inventory access.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="doc-layout reveal">
+        <aside class="doc-sidebar">
+          <div class="doc-nav-card">
+            <p class="card-label">Setup menu</p>
+            <nav class="doc-nav-list">
+              <a href="setup-account.html">Create your login</a>
+              <a href="setup-ai-providers.html">Get AI provider keys</a>
+              <a class="is-current" href="setup-ebay.html">Configure eBay developer access</a>
+            </nav>
+          </div>
+
+          <div class="doc-nav-card">
+            <p class="card-label">What the app wants</p>
+            <ul class="bullet-list">
+              <li>Client ID</li>
+              <li>Client Secret</li>
+              <li>RuName</li>
+              <li>OAuth consent approval</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="doc-main">
+          <section class="doc-section">
+            <h2>Before you start</h2>
+            <div class="callout">
+              <strong>Use production first</strong>
+              <p>For normal seller onboarding, create the production keyset and production RuName first. Only repeat the process for sandbox if your build actually exposes a sandbox environment.</p>
+            </div>
+          </section>
+
+          <section class="doc-section">
+            <h2>Step 1: Join the eBay Developers Program and create a keyset</h2>
+            <ol class="step-list">
+              <li>Sign in to the eBay Developers Program.</li>
+              <li>Open the <strong>Application Keys</strong> page.</li>
+              <li>Create a <strong>Production</strong> keyset for the application you want to use with Lakeview Lister.</li>
+              <li>Copy the <strong>Client ID</strong> and <strong>Client Secret</strong> from that keyset.</li>
+            </ol>
+
+            <p class="source-line"><a href="https://developer.ebay.com/api-docs/static/gs_create-the-ebay-api-keysets.html" target="_blank" rel="noreferrer">Create the eBay API keysets</a> · <a href="https://developer.ebay.com/api-docs/static/gs_understand-application-keysets.html" target="_blank" rel="noreferrer">Understand application keysets</a></p>
+          </section>
+
+          <section class="doc-section">
+            <h2>Step 2: Create the RuName for that same environment</h2>
+            <ol class="step-list">
+              <li>On the keyset page, open the <strong>User Tokens</strong> area next to the Client ID.</li>
+              <li>Create a RuName if one does not already exist for that keyset.</li>
+              <li>Fill in the RuName form values needed for user-token OAuth.</li>
+              <li>Copy the resulting <strong>RuName</strong> exactly as eBay shows it.</li>
+            </ol>
+
+            <div class="callout">
+              <strong>Use these callback URLs in the RuName form</strong>
+              <p><strong>Auth Accepted URL:</strong> <code>https://flipforgeebaycallback.z19.web.core.windows.net/ebay-callback/</code></p>
+              <p><strong>Auth Declined URL:</strong> <code>https://flipforgeebaycallback.z19.web.core.windows.net/ebay-callback/declined/</code></p>
+            </div>
+
+            <figure class="figure-card">
+              <img src="assets/placeholders/ebay-runame-placeholder.svg" alt="eBay RuName configuration illustration" class="feature-image">
+              <figcaption>
+                <strong>RuName configuration</strong>
+                Set the callback URLs once, copy the RuName, and bring it back into Lakeview Lister.
+              </figcaption>
+            </figure>
+
+            <p class="source-line"><a href="https://developer.ebay.com/api-docs/static/oauth-redirect-uri.html" target="_blank" rel="noreferrer">Getting your redirect_uri value / RuName</a> · <a href="https://developer.ebay.com/develop/guides-v2/authorization" target="_blank" rel="noreferrer">eBay authorization guides</a></p>
+          </section>
+
+          <section class="doc-section">
+            <h2>Step 3: Paste the values into Lakeview Lister</h2>
+            <ol class="step-list">
+              <li>Open <strong>Profile</strong> in Lakeview Lister.</li>
+              <li>Go to the <strong>eBay OAuth 2.0</strong> section.</li>
+              <li>Paste the <strong>Client ID</strong>, <strong>Client Secret</strong>, and <strong>RuName</strong>.</li>
+              <li>Save the profile if needed.</li>
+            </ol>
+
+            <div class="callout">
+              <strong>Environment matching matters</strong>
+              <p>The RuName must match the same eBay environment as the keyset you created. Do not mix a Production keyset with a Sandbox RuName.</p>
+            </div>
+          </section>
+
+          <section class="doc-section">
+            <h2>Step 4: Complete the OAuth consent flow</h2>
+            <ol class="step-list">
+              <li>Inside the app, click <strong>Open OAuth Consent</strong>.</li>
+              <li>Sign in to the eBay seller account you want Lakeview Lister to manage.</li>
+              <li>Approve the requested permissions.</li>
+              <li>Return to the app and confirm that token status now shows valid access and refresh tokens.</li>
+              <li>Use <strong>Refresh Token</strong> later if you need to renew access.</li>
+            </ol>
+          </section>
+
+          <section class="doc-section">
+            <h2>Optional sandbox note</h2>
+            <p>
+              If your build exposes a sandbox or developer-mode environment selector, repeat the same process with a
+              separate sandbox keyset and sandbox RuName. For most normal seller setup, start with production first.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Lakeview Lister by Burnham Enterprises LLC, Wayzata, Minnesota.</p>
+      <p>Connect eBay once and keep listing, publishing, and inventory review in one desktop workflow.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

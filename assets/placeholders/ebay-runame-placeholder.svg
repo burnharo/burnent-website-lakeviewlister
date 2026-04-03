@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#12313A"/>
+  <rect x="22" y="22" width="1156" height="716" rx="24" fill="#F7FBFB" stroke="#83C1C6" stroke-width="2"/>
+  <text x="74" y="92" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Replace with eBay RuName configuration</text>
+  <text x="74" y="134" fill="#4A6971" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22">Keep Display Title, Privacy Policy URL, Auth Accepted URL, and Auth Declined URL visible.</text>
+  <rect x="82" y="188" width="1036" height="470" rx="24" fill="#EAF4F5" stroke="#C7E0E3"/>
+  <rect x="120" y="228" width="958" height="70" rx="18" fill="#FFFFFF"/>
+  <rect x="120" y="324" width="958" height="70" rx="18" fill="#FFFFFF"/>
+  <rect x="120" y="420" width="958" height="70" rx="18" fill="#FFFFFF"/>
+  <rect x="120" y="516" width="958" height="70" rx="18" fill="#FFFFFF"/>
+  <text x="150" y="272" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Display Title / Privacy Policy URL</text>
+  <text x="150" y="368" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Auth Accepted URL</text>
+  <text x="150" y="464" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Auth Declined URL</text>
+</svg>

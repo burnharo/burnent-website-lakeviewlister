@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" fill="none">
+  <rect width="1600" height="980" rx="32" fill="#0F2A33"/>
+  <rect x="28" y="28" width="1544" height="924" rx="28" fill="#143743" stroke="#5CA4AB" stroke-width="2"/>
+  <rect x="60" y="60" width="1480" height="64" rx="18" fill="#1C4E5D"/>
+  <circle cx="102" cy="92" r="10" fill="#E48D73"/>
+  <circle cx="132" cy="92" r="10" fill="#D2AF6D"/>
+  <circle cx="162" cy="92" r="10" fill="#7FC0B4"/>
+  <text x="212" y="99" fill="#E8F4F5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Suggested hero screenshot</text>
+
+  <rect x="86" y="168" width="364" height="716" rx="24" fill="#10313B" stroke="#285A69"/>
+  <text x="118" y="220" fill="#E8F4F5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Replace with:</text>
+  <text x="118" y="272" fill="#9DD3D7" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22">Lakeview Lister</text>
+  <text x="118" y="306" fill="#9DD3D7" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22">Draft Builder workspace</text>
+  <text x="118" y="360" fill="#E8F4F5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Please show:</text>
+  <text x="118" y="402" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Sidebar navigation</text>
+  <text x="118" y="438" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Grouped photos</text>
+  <text x="118" y="474" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Run / setup ribbon</text>
+  <text x="118" y="510" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">One active group expanded</text>
+  <text x="118" y="584" fill="#E8F4F5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Ideal crop:</text>
+  <text x="118" y="626" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Wide desktop capture</text>
+  <text x="118" y="662" fill="#C8E7E9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">about 1440 × 900</text>
+
+  <rect x="496" y="168" width="1018" height="716" rx="24" fill="#EEF5F4" stroke="#95C7CB" stroke-width="2"/>
+  <rect x="534" y="206" width="228" height="620" rx="20" fill="#123846"/>
+  <rect x="794" y="206" width="682" height="126" rx="18" fill="#FFFFFF"/>
+  <rect x="794" y="356" width="682" height="470" rx="18" fill="#F8FCFC"/>
+  <rect x="832" y="402" width="176" height="170" rx="18" fill="#DCEBED"/>
+  <rect x="1030" y="402" width="176" height="170" rx="18" fill="#DCEBED"/>
+  <rect x="1228" y="402" width="176" height="170" rx="18" fill="#DCEBED"/>
+  <rect x="832" y="596" width="572" height="28" rx="14" fill="#DCEBED"/>
+  <rect x="832" y="642" width="498" height="20" rx="10" fill="#E6F2F3"/>
+  <rect x="832" y="682" width="530" height="20" rx="10" fill="#E6F2F3"/>
+  <text x="854" y="274" fill="#12313A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Hero screenshot area</text>
+  <text x="854" y="312" fill="#57727A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Swap this placeholder with a polished Draft Builder capture.</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" fill="none">
+  <rect width="1500" height="920" fill="#F3EFE6"/>
+  <rect x="18" y="18" width="1464" height="884" rx="28" fill="#FCFAF5" stroke="#D9D1C0" stroke-width="2"/>
+
+  <text x="46" y="70" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Template List Mockup</text>
+  <text x="46" y="102" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Searchable, sortable list. Names first, metadata secondary, no card layout.</text>
+
+  <rect x="56" y="140" width="1388" height="734" rx="24" fill="#FFFFFF" stroke="#D7CDB8" stroke-width="2"/>
+
+  <text x="94" y="198" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="32" font-weight="700">Use Template</text>
+  <text x="94" y="230" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="17">Pick a saved setup, then review it in workflow setup.</text>
+
+  <rect x="94" y="264" width="420" height="42" rx="14" fill="#FFFFFF" stroke="#D7CDB8" stroke-width="1.5"/>
+  <circle cx="122" cy="285" r="7" stroke="#8A979B" stroke-width="2"/>
+  <line x1="127" y1="290" x2="135" y2="298" stroke="#8A979B" stroke-width="2" stroke-linecap="round"/>
+  <text x="150" y="291" fill="#95A1A5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Search templates</text>
+
+  <rect x="534" y="264" width="118" height="42" rx="14" fill="#E8F0F2"/>
+  <text x="566" y="291" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Recent</text>
+  <rect x="664" y="264" width="118" height="42" rx="14" fill="#FFFFFF" stroke="#D7CDB8" stroke-width="1.5"/>
+  <text x="697" y="291" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Name</text>
+  <rect x="794" y="264" width="118" height="42" rx="14" fill="#FFFFFF" stroke="#D7CDB8" stroke-width="1.5"/>
+  <text x="826" y="291" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Pinned</text>
+
+  <rect x="1284" y="264" width="120" height="42" rx="14" fill="#FFFFFF" stroke="#C7CFD1" stroke-width="1.5"/>
+  <text x="1318" y="291" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Resume Last</text>
+
+  <line x1="94" y1="336" x2="1406" y2="336" stroke="#D7CDB8" stroke-width="1.5"/>
+  <text x="112" y="360" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">TEMPLATE NAME</text>
+  <text x="654" y="360" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">DETAILS</text>
+  <text x="1116" y="360" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">LAST USED</text>
+
+  <rect x="94" y="374" width="1312" height="54" fill="#FFF8ED"/>
+  <circle cx="118" cy="401" r="6" fill="#D27B1E"/>
+  <text x="138" y="407" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Trading Card Singles Setup</text>
+  <text x="654" y="407" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">2/group • 9 defaults • custom instructions</text>
+  <text x="1116" y="407" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Today 7:13 PM</text>
+
+  <line x1="94" y1="428" x2="1406" y2="428" stroke="#ECE4D7" stroke-width="1"/>
+  <circle cx="118" cy="455" r="6" fill="#C8D2D6"/>
+  <text x="138" y="461" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Sports Card Raw Intake</text>
+  <text x="654" y="461" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Manual grouping • production publish defaults</text>
+  <text x="1116" y="461" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Mar 18</text>
+
+  <line x1="94" y1="482" x2="1406" y2="482" stroke="#ECE4D7" stroke-width="1"/>
+  <circle cx="118" cy="509" r="6" fill="#C8D2D6"/>
+  <text x="138" y="515" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">TCG Graded Cards</text>
+  <text x="654" y="515" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">1/group • condition defaults</text>
+  <text x="1116" y="515" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Mar 17</text>
+
+  <line x1="94" y1="536" x2="1406" y2="536" stroke="#ECE4D7" stroke-width="1"/>
+  <circle cx="118" cy="563" r="6" fill="#D27B1E"/>
+  <text x="138" y="569" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Retro Games Setup</text>
+  <text x="654" y="569" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Manual grouping • shipping defaults</text>
+  <text x="1116" y="569" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Mar 15</text>
+
+  <line x1="94" y1="590" x2="1406" y2="590" stroke="#ECE4D7" stroke-width="1"/>
+  <circle cx="118" cy="617" r="6" fill="#C8D2D6"/>
+  <text x="138" y="623" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Vintage Electronics</text>
+  <text x="654" y="623" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">3/group • store category preset</text>
+  <text x="1116" y="623" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Mar 12</text>
+
+  <line x1="94" y1="644" x2="1406" y2="644" stroke="#ECE4D7" stroke-width="1"/>
+  <circle cx="118" cy="671" r="6" fill="#C8D2D6"/>
+  <text x="138" y="677" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Comic Books Raw Intake</text>
+  <text x="654" y="677" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Manual grouping • no extra instructions</text>
+  <text x="1116" y="677" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">Mar 10</text>
+
+  <line x1="94" y1="698" x2="1406" y2="698" stroke="#ECE4D7" stroke-width="1"/>
+
+  <rect x="94" y="744" width="154" height="40" rx="14" fill="#2C7987"/>
+  <text x="134" y="770" fill="#FFFFFF" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Use Selected</text>
+  <rect x="262" y="744" width="102" height="40" rx="14" fill="#FFFFFF" stroke="#C7CFD1" stroke-width="1.5"/>
+  <text x="294" y="770" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Cancel</text>
+
+  <rect x="94" y="812" width="1312" height="36" rx="18" fill="#EDE7DA"/>
+  <text x="124" y="835" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">This is the version I’d actually recommend if you want density: a simple list view with selection, search, and sort, then open setup after selection.</text>
+</svg>

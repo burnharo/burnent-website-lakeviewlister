@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1720" height="1080" viewBox="0 0 1720 1080" fill="none">
+  <rect width="1720" height="1080" fill="#EAEFF2"/>
+  <rect x="0" y="0" width="1720" height="1080" fill="#000000" fill-opacity="0.16"/>
+
+  <rect x="132" y="64" width="1456" height="952" rx="30" fill="#FCFAF5" stroke="#D9D1C0" stroke-width="2"/>
+  <text x="176" y="126" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Run Usage Report Mockup</text>
+  <text x="176" y="158" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Run-level totals at top, item-level rows beneath, with `estimated_cost` present but empty until pricing is configured.</text>
+
+  <rect x="176" y="188" width="1368" height="56" rx="18" fill="#FFF8ED" stroke="#E4C98B" stroke-width="2"/>
+  <text x="204" y="223" fill="#8A5F28" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Estimated cost is not configured yet.</text>
+  <text x="486" y="223" fill="#7B6A48" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15">The field exists now so pricing can be added later without changing the report structure.</text>
+
+  <rect x="176" y="272" width="320" height="134" rx="20" fill="#FFFFFF" stroke="#D8D3C8" stroke-width="2"/>
+  <text x="204" y="312" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">RUN</text>
+  <text x="204" y="346" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">draft-builder-20260330-201455</text>
+  <text x="204" y="376" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14">Draft Builder</text>
+
+  <rect x="522" y="272" width="244" height="134" rx="20" fill="#FFFFFF" stroke="#D8D3C8" stroke-width="2"/>
+  <text x="550" y="312" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">STARTED / ENDED</text>
+  <text x="550" y="346" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Mar 30, 8:14 PM</text>
+  <text x="550" y="376" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14">Finished 8:26 PM</text>
+
+  <rect x="792" y="272" width="180" height="134" rx="20" fill="#FFF8ED" stroke="#E4C98B" stroke-width="2"/>
+  <text x="820" y="312" fill="#8A5F28" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">ITEMS</text>
+  <text x="820" y="360" fill="#8A5F28" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">18</text>
+
+  <rect x="998" y="272" width="248" height="134" rx="20" fill="#F7FAFB" stroke="#CFDBE0" stroke-width="2"/>
+  <text x="1026" y="312" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">BILLABLE INPUT TOKENS</text>
+  <text x="1026" y="360" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">41,820</text>
+
+  <rect x="1272" y="272" width="272" height="134" rx="20" fill="#F3EEF9" stroke="#D6C7E8" stroke-width="2"/>
+  <text x="1300" y="312" fill="#6A4A91" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">BILLABLE OUTPUT TOKENS</text>
+  <text x="1300" y="360" fill="#4E356E" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">12,640</text>
+
+  <rect x="176" y="434" width="1368" height="520" rx="22" fill="#FFFFFF" stroke="#D8D3C8" stroke-width="2"/>
+  <text x="206" y="478" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Item Usage</text>
+
+  <rect x="206" y="502" width="1308" height="54" rx="14" fill="#F7FAFB" stroke="#CFDBE0" stroke-width="1.5"/>
+  <text x="230" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">ITEM</text>
+  <text x="760" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">PHOTOS ATTACHED</text>
+  <text x="962" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">STATUS</text>
+  <text x="1080" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">INPUT</text>
+  <text x="1212" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">OUTPUT</text>
+  <text x="1332" y="536" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">ESTIMATED COST</text>
+
+  <line x1="206" y1="612" x2="1514" y2="612" stroke="#ECE4D7"/>
+  <text x="230" y="592" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">1987 Topps Barry Bonds RC</text>
+  <text x="760" y="592" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">4</text>
+  <rect x="944" y="568" width="92" height="28" rx="14" fill="#E8F5EE"/>
+  <text x="968" y="587" fill="#2D8F62" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Success</text>
+  <text x="1080" y="592" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">1,824</text>
+  <text x="1212" y="592" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">544</text>
+  <text x="1332" y="592" fill="#8A979B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Not set</text>
+
+  <line x1="206" y1="672" x2="1514" y2="672" stroke="#ECE4D7"/>
+  <text x="230" y="652" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Nintendo 64 Console Bundle</text>
+  <text x="760" y="652" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">9</text>
+  <rect x="944" y="628" width="92" height="28" rx="14" fill="#E8F5EE"/>
+  <text x="968" y="647" fill="#2D8F62" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Success</text>
+  <text x="1080" y="652" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">3,912</text>
+  <text x="1212" y="652" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">1,086</text>
+  <text x="1332" y="652" fill="#8A979B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Not set</text>
+
+  <line x1="206" y1="732" x2="1514" y2="732" stroke="#ECE4D7"/>
+  <text x="230" y="712" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Pokemon Base Set Holos</text>
+  <text x="760" y="712" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">12</text>
+  <rect x="944" y="688" width="92" height="28" rx="14" fill="#E8F5EE"/>
+  <text x="968" y="707" fill="#2D8F62" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Success</text>
+  <text x="1080" y="712" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">5,318</text>
+  <text x="1212" y="712" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">1,742</text>
+  <text x="1332" y="712" fill="#8A979B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Not set</text>
+
+  <line x1="206" y1="792" x2="1514" y2="792" stroke="#ECE4D7"/>
+  <text x="230" y="772" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Vintage Sony Discman</text>
+  <text x="760" y="772" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">5</text>
+  <rect x="944" y="748" width="92" height="28" rx="14" fill="#E8F5EE"/>
+  <text x="968" y="767" fill="#2D8F62" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Success</text>
+  <text x="1080" y="772" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">2,116</text>
+  <text x="1212" y="772" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">698</text>
+  <text x="1332" y="772" fill="#8A979B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Not set</text>
+
+  <line x1="206" y1="852" x2="1514" y2="852" stroke="#ECE4D7"/>
+  <text x="230" y="832" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Assorted Sports Card Lot</text>
+  <text x="760" y="832" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">7</text>
+  <rect x="944" y="808" width="92" height="28" rx="14" fill="#FFF2EE"/>
+  <text x="974" y="827" fill="#BE4330" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Failed</text>
+  <text x="1080" y="832" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">1,204</text>
+  <text x="1212" y="832" fill="#17313B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">0</text>
+  <text x="1332" y="832" fill="#8A979B" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Not set</text>
+
+  <rect x="176" y="972" width="1368" height="22" rx="11" fill="#EDE7DA"/>
+  <text x="198" y="988" fill="#5F6E72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13">Recommended fields: run_id, item_id, attached_image_count, status, started_at, ended_at, billable_input_tokens, billable_output_tokens, estimated_cost(nullable), pricing_version(nullable).</text>
+</svg>
