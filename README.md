@@ -1,15 +1,21 @@
 # burnent-website-lakeviewlister
 
-First-pass static multi-page marketing site for Lakeview Lister.
+Static marketing website for Lakeview Lister.
 
 Pages:
 
 - `index.html` landing page
-- `how-it-works.html` product workflow page
-- `setup.html` setup overview
-- `setup-account.html` account and access guide
-- `setup-ai-providers.html` AI key setup guide
-- `setup-ebay.html` eBay developer setup guide
-- `about.html` company/about page
+- `pricing.html` pricing page
+- `faq.html` full FAQ page
+- `support.html` support and beta access page
+- `terms.html` terms of service summary
+- `privacy.html` privacy policy summary
+- `refund.html` refund policy summary
+- `cancellation.html` cancellation policy summary
 
-Open `/Users/rburnham/Documents/Repositories/burnent-website-lakeviewlister/index.html` in a browser, or serve the repository root with any static file server.
+Assets:
+
+- `assets/lakeview-lister-logo.svg`
+- `assets/lakeview-lister-logo.png`
+
+Open `index.html` directly, or serve this repository root with any static file server.
