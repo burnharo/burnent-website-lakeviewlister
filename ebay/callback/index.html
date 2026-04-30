@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#03130e">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self'; font-src 'none'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none';">
+  <title>eBay Connection Complete | Lakeview Lister</title>
+  <link rel="icon" href="../../assets/lakeview-lister-logo.png">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="callback-page">
+  <main class="callback-shell">
+    <section class="callback-card auth-card">
+      <img src="../../assets/lakeview-lister-logo.svg" alt="" class="brand-mark">
+      <p class="section-kicker">eBay connection</p>
+      <h1>eBay connection complete.</h1>
+      <p class="callback-intro">Copy the authorization code below and paste it into Lakeview Lister to finish connecting your eBay account.</p>
+
+      <label class="auth-field" for="codeBox"><strong>Authorization code</strong><textarea id="codeBox" readonly></textarea></label>
+      <button class="button button-green auth-copy" type="button" data-copy-target="codeBox">Copy code</button>
+      <p class="auth-copy-status" id="copyStatus" aria-live="polite"></p>
+
+      <div class="auth-reference">
+        <strong>State reference</strong>
+        <code id="stateBox">No state found.</code>
+      </div>
+
+      <p class="callback-note">After pasting the code into the app, you may close this page.</p>
+      <p class="callback-warning">Do not share this code with anyone. It can only be used once.</p>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code") || "";
+      const state = params.get("state") || "";
+
+      document.getElementById("codeBox").value = code || "No code found.";
+      document.getElementById("stateBox").textContent = state || "No state found.";
+
+      document.querySelectorAll("[data-copy-target]").forEach((button) => {
+        button.addEventListener("click", () => copyValue(button.dataset.copyTarget, button));
+      });
+    })();
+
+    function copyValue(id, button) {
+      const el = document.getElementById(id);
+      el.select();
+      el.setSelectionRange(0, 99999);
+      try {
+        navigator.clipboard.writeText(el.value);
+      } catch (e) {
+        document.execCommand("copy");
+      }
+      document.getElementById("copyStatus").textContent = "Authorization code copied.";
+    }
+  </script>
+</body>
+</html>
