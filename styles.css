@@ -1278,6 +1278,35 @@ p {
   margin-top: 24px;
 }
 
+.billing-return-card {
+  width: min(100%, 720px);
+}
+
+.billing-return-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.billing-return-note {
+  display: grid;
+  gap: 8px;
+  margin-top: 26px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.045);
+}
+
+.billing-return-note strong {
+  color: #b5e68e;
+}
+
+.billing-return-note p {
+  color: rgba(255,255,255,0.74);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(16px);

@@ -8,6 +8,9 @@ Pages:
 - `pricing.html` pricing page
 - `faq.html` full FAQ page
 - `support.html` support and beta access page
+- `billing/success/index.html` Stripe checkout success return page
+- `billing/cancel/index.html` Stripe checkout cancellation return page
+- `account/billing/index.html` Stripe billing portal return page
 - `terms.html` terms of service summary
 - `privacy.html` privacy policy summary
 - `refund.html` refund policy summary
